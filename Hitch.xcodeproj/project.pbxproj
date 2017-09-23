@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9273F9601F769947007A0642 /* RoundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273F95F1F769947007A0642 /* RoundImageView.swift */; };
+		9273F9621F769A1A007A0642 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273F9611F769A1A007A0642 /* RoundedShadowView.swift */; };
+		9273F9641F769AF2007A0642 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273F9631F769AF2007A0642 /* CircleView.swift */; };
+		9273F9661F769C41007A0642 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9273F9651F769C41007A0642 /* RoundedShadowButton.swift */; };
 		92ABDBBE1F768A840080A0F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABDBBD1F768A840080A0F7 /* AppDelegate.swift */; };
 		92ABDBC01F768A840080A0F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABDBBF1F768A840080A0F7 /* ViewController.swift */; };
 		92ABDBC31F768A840080A0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ABDBC11F768A840080A0F7 /* Main.storyboard */; };
 		92ABDBC51F768A840080A0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ABDBC41F768A840080A0F7 /* Assets.xcassets */; };
 		92ABDBC81F768A840080A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ABDBC61F768A840080A0F7 /* LaunchScreen.storyboard */; };
-		92ABDBD01F7694FF0080A0F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ABDBCF1F7694FF0080A0F7 /* MapKit.framework */; };
+		92ABDBD51F76963E0080A0F7 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ABDBD41F76963E0080A0F7 /* GradientView.swift */; };
 		B8FE3E89E92137A33A838520 /* Pods_Hitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DC9CF195B7A3C7FCC2336C /* Pods_Hitch.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		39830823A389FFA16EA52C49 /* Pods-Hitch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.release.xcconfig"; path = "Pods/Target Support Files/Pods-Hitch/Pods-Hitch.release.xcconfig"; sourceTree = "<group>"; };
 		78DC9CF195B7A3C7FCC2336C /* Pods_Hitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9273F95F1F769947007A0642 /* RoundImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundImageView.swift; sourceTree = "<group>"; };
+		9273F9611F769A1A007A0642 /* RoundedShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		9273F9631F769AF2007A0642 /* CircleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		9273F9651F769C41007A0642 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
 		92ABDBBA1F768A840080A0F7 /* Hitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ABDBBD1F768A840080A0F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92ABDBBF1F768A840080A0F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +35,7 @@
 		92ABDBC71F768A840080A0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92ABDBC91F768A840080A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92ABDBCF1F7694FF0080A0F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		92ABDBD41F76963E0080A0F7 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		DA0DB4EB0659AC1E77AE0BD3 /* Pods-Hitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hitch/Pods-Hitch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -35,7 +44,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ABDBD01F7694FF0080A0F7 /* MapKit.framework in Frameworks */,
 				B8FE3E89E92137A33A838520 /* Pods_Hitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -82,14 +90,43 @@
 		92ABDBBC1F768A840080A0F7 /* Hitch */ = {
 			isa = PBXGroup;
 			children = (
+				92ABDBD31F7696250080A0F7 /* Model */,
+				92ABDBD21F7696210080A0F7 /* View */,
+				92ABDBD11F76961A0080A0F7 /* Controller */,
 				92ABDBBD1F768A840080A0F7 /* AppDelegate.swift */,
-				92ABDBBF1F768A840080A0F7 /* ViewController.swift */,
 				92ABDBC11F768A840080A0F7 /* Main.storyboard */,
 				92ABDBC41F768A840080A0F7 /* Assets.xcassets */,
 				92ABDBC61F768A840080A0F7 /* LaunchScreen.storyboard */,
 				92ABDBC91F768A840080A0F7 /* Info.plist */,
 			);
 			path = Hitch;
+			sourceTree = "<group>";
+		};
+		92ABDBD11F76961A0080A0F7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92ABDBBF1F768A840080A0F7 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		92ABDBD21F7696210080A0F7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				92ABDBD41F76963E0080A0F7 /* GradientView.swift */,
+				9273F95F1F769947007A0642 /* RoundImageView.swift */,
+				9273F9611F769A1A007A0642 /* RoundedShadowView.swift */,
+				9273F9631F769AF2007A0642 /* CircleView.swift */,
+				9273F9651F769C41007A0642 /* RoundedShadowButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		92ABDBD31F7696250080A0F7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,8 +267,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9273F9661F769C41007A0642 /* RoundedShadowButton.swift in Sources */,
+				9273F9641F769AF2007A0642 /* CircleView.swift in Sources */,
 				92ABDBC01F768A840080A0F7 /* ViewController.swift in Sources */,
+				9273F9601F769947007A0642 /* RoundImageView.swift in Sources */,
+				9273F9621F769A1A007A0642 /* RoundedShadowView.swift in Sources */,
 				92ABDBBE1F768A840080A0F7 /* AppDelegate.swift in Sources */,
+				92ABDBD51F76963E0080A0F7 /* GradientView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
