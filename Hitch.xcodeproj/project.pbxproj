@@ -12,6 +12,7 @@
 		92ABDBC31F768A840080A0F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ABDBC11F768A840080A0F7 /* Main.storyboard */; };
 		92ABDBC51F768A840080A0F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ABDBC41F768A840080A0F7 /* Assets.xcassets */; };
 		92ABDBC81F768A840080A0F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ABDBC61F768A840080A0F7 /* LaunchScreen.storyboard */; };
+		92ABDBD01F7694FF0080A0F7 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92ABDBCF1F7694FF0080A0F7 /* MapKit.framework */; };
 		B8FE3E89E92137A33A838520 /* Pods_Hitch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DC9CF195B7A3C7FCC2336C /* Pods_Hitch.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		92ABDBC41F768A840080A0F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92ABDBC71F768A840080A0F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92ABDBC91F768A840080A0F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92ABDBCF1F7694FF0080A0F7 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DA0DB4EB0659AC1E77AE0BD3 /* Pods-Hitch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hitch.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Hitch/Pods-Hitch.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ABDBD01F7694FF0080A0F7 /* MapKit.framework in Frameworks */,
 				B8FE3E89E92137A33A838520 /* Pods_Hitch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,6 +55,7 @@
 		43A30AA026188801626C9920 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				92ABDBCF1F7694FF0080A0F7 /* MapKit.framework */,
 				78DC9CF195B7A3C7FCC2336C /* Pods_Hitch.framework */,
 			);
 			name = Frameworks;
@@ -395,6 +399,7 @@
 				92ABDBCE1F768A840080A0F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
