@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  Hitch
 //
 //  Created by Oron Ben Zvi on 9/23/17.
@@ -9,10 +9,12 @@
 import UIKit
 import MapKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
 
     @IBOutlet weak var mapView: MKMapView!
     @IBOutlet weak var actionButton: RoundedShadowButton!
+    
+    var delegate: CenterViewControllerDelegate?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -22,6 +24,10 @@ class ViewController: UIViewController {
         actionButton.animateButton(shouldLoad: true)
     }
 
+    @IBAction func menuButtonDidTap(_ sender: Any) {
+        delegate?.toggleLeftPanel()
+    }
+    
     @IBAction func locateButtonDidTap(_ sender: Any) {
     }
 }
