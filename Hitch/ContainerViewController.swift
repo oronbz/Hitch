@@ -134,9 +134,7 @@ extension ContainerViewController: CenterViewControllerDelegate {
         whiteCoverView.backgroundColor = UIColor.white
         
         centerController.view.addSubview(whiteCoverView)
-        UIView.animate(withDuration: 0.2) { 
-            whiteCoverView.alpha = 0.75
-        }
+        whiteCoverView.fadeTo(alpha: 0.75, withDuration: 0.2)
         
         self.whiteCoverView = whiteCoverView
         
